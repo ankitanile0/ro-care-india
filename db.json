@@ -1,0 +1,167 @@
+{
+  "customers": [
+    {
+      "cname": "Kapil",
+      "email": "k@gmail.com",
+      "phone": "5896555444",
+      "country": "Austrailiya",
+      "totalOrder": "12",
+      "RegisterDate": "2022-04-04",
+      "id": 2
+    },
+    {
+      "cname": "Varsha",
+      "email": "v@gmail.com",
+      "phone": "7845124444",
+      "country": "India",
+      "totalOrder": "12",
+      "RegisterDate": "2022-04-05",
+      "id": 3
+    },
+    {
+      "cname": "varsha",
+      "email": "varsha@gmail.com",
+      "phone": "4561236556",
+      "country": "India",
+      "totalOrder": "22",
+      "RegisterDate": "2022-04-04",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "Category": "WATER PURIFIER",
+      "subcategories": "pta nahi",
+      "id": 3
+    },
+    {
+      "Category": "RO PLANT",
+      "subcategories": "pata nahi",
+      "id": 4
+    },
+    {
+      "Category": "WATER SOFTENER",
+      "subcategories": "pata nahi",
+      "id": 5
+    },
+    {
+      "Category": "VACCUM CLEANER",
+      "subcategories": "pta nahi",
+      "id": 6
+    },
+    {
+      "Category": "WATER DISPENSER",
+      "subcategories": "pta nahi",
+      "id": 7
+    },
+    {
+      "Category": "WATER ATM",
+      "subcategories": "pata nahi",
+      "id": 8
+    },
+    {
+      "Category": "WATER IONIZER",
+      "subcategories": "pta nahi",
+      "id": 9
+    },
+    {
+      "Category": "WATER COOLER",
+      "subcategories": "WATER TANK",
+      "id": 10
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "file": "",
+      "sku": "HGO0000",
+      "title": "PIZZA",
+      "slug": "IOOP",
+      "description": "GHY",
+      "parentcategory": "RO PLANT",
+      "childcategory": "Option 2",
+      "unit": "14",
+      "stock": "10",
+      "saleprice": "",
+      "discountprice": "",
+      "tag": "ghu",
+      "id": 1
+    },
+    {
+      "file": "",
+      "sku": "IOOP",
+      "title": "ghjkh",
+      "slug": "hhg",
+      "description": "huuj",
+      "parentcategory": "WATER PURIFIER",
+      "childcategory": "Option 2",
+      "unit": "10",
+      "stock": "14",
+      "saleprice": 12,
+      "discountprice": "",
+      "tag": "hj",
+      "id": 2
+    },
+    {
+      "file": "",
+      "sku": "HGO0000",
+      "title": "PIZZA",
+      "slug": "IOOP",
+      "description": "GHY",
+      "parentcategory": "RO PLANT",
+      "childcategory": "Option 2",
+      "unit": "10",
+      "stock": "10",
+      "saleprice": 15,
+      "discountprice": "",
+      "tag": "ghu",
+      "id": 3
+    },
+    {
+      "file": "",
+      "sku": "hjui",
+      "title": "TV",
+      "slug": "HJ",
+      "description": "KAK",
+      "parentcategory": "RO PLANT",
+      "childcategory": "Option 4",
+      "unit": "10",
+      "stock": "14",
+      "saleprice": 10,
+      "discountprice": "",
+      "tag": "ghu",
+      "id": 4
+    },
+    {
+      "file": "C:\\fakepath\\itl.cat_cute-girl-hd-wallpapers_2345861.png",
+      "sku": "HJJ",
+      "title": "FRIDGE",
+      "slug": "JKK",
+      "description": "HJUI",
+      "parentcategory": "WATER SOFTNER",
+      "childcategory": "Option 4",
+      "unit": "10",
+      "stock": "10",
+      "saleprice": 10,
+      "discountprice": null,
+      "tag": "LL",
+      "id": 5
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "image": "C:\\fakepath\\2015-06-15 13.20.00.jpg",
+      "title": "dffggfgfh",
+      "description": "dcvfvf"
+    },
+    {
+      "id": 3,
+      "image": "C:\\fakepath\\2017-04-03-10-48-06-416.jpg",
+      "title": "hello",
+      "description": "helooooo"
+    }
+  ]
+}

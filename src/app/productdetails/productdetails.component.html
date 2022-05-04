@@ -1,0 +1,151 @@
+<header class="header shop">
+    <!-- Topbar -->
+    <div class="topbar" data-bg-color="aqua-marine" class="card gradient-aqua-marine d-block rounded box-shadow-2" style="margin: 0px;color: #fff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- Top Left -->
+                    <div class="top-left">
+                        <ul class="list-main">
+                            <li><i class="ti-headphone-alt"></i> +060 (800) 801-582</li>
+                            <li><i class="ti-email"></i> support@shophub.com</li>
+                        </ul>
+                    </div>
+                    <!--/ End Top Left -->
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- Top Right -->
+                    <div class="right-content">
+                        <ul class="list-main">
+                            <li><i class="ti-location-pin"></i> Store location</li>
+                            <li><i class="ti-alarm-clock"></i> <a>Daily deal</a></li>
+                            <li><i class="ti-user"></i> <a routerLink="/main">My account</a></li>
+                            <li><i class="ti-power-off"></i><a routerLink="/main-dashboard/login">Login</a></li>
+                        </ul>
+                    </div>
+                    <!-- End Top Right -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Topbar -->
+    <div class="middle-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-12">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a><img src="assets/images/logo.png" alt="logo"></a>
+                    </div>
+                    <!--/ End Logo -->
+                    <!-- Search Form -->
+                    <div class="search-top">
+                        <div class="top-search"><a><i class="ti-search"></i></a></div>
+                        <!-- Search Form -->
+                        <div class="search-top">
+                            <form class="search-form">
+                                <input type="text" placeholder="Search here..." name="search">
+                                <button value="search" type="submit"><i class="ti-search"></i></button>
+                            </form>
+                        </div>
+                        <!--/ End Search Form -->
+                    </div>
+                    <!--/ End Search Form -->
+                    <div class="mobile-nav"></div>
+                </div>
+                <div class="col-lg-8 col-md-7 col-12">
+                    <div class="search-bar-top">
+                        <div class="search-bar">
+
+                            <form>
+                                <input name="search" placeholder="Search Products Here....." type="search">
+                                <button class="btnn"><i class="ti-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-12">
+                    <div class="right-bar">
+                        <!-- Search Form -->
+                        <div class="sinlge-bar">
+                            <a class="single-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="sinlge-bar">
+                            <a class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="sinlge-bar shopping">
+                            <a class="single-icon"><i class="ti-bag"></i> <span class="total-count">2</span></a>
+                            <!-- Shopping Item -->
+                            <div class="shopping-item">
+                                <div class="dropdown-cart-header">
+                                    <span>2 Items</span>
+                                    <a>View Cart</a>
+                                </div>
+                                <ul class="shopping-list">
+                                    <li>
+                                        <a class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
+                                        <a class="cart-img"><img src="assets/images/product-1.jpg" alt="#"></a>
+                                        <h4><a>Doctor Fresh Life Veda</a></h4>
+                                        <b>
+                                            <p class="quantity">1x - <span>15,940/-</span></p>
+                                        </b>
+                                    </li>
+                                    <li>
+                                        <a class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
+                                        <a class="cart-img"><img src="assets/images/product-2.jpg" alt="#"></a>
+                                        <h4><a>Puret Marvela RO+Cold</a></h4>
+                                        <p class="quantity">1x - <span class="amount">14660/-</span></p>
+                                    </li>
+                                </ul>
+                                <div class="bottom">
+                                    <div class="total">
+                                        <span>Total</span>
+                                        <span class="total-amount">26,560/-</span>
+                                    </div>
+                                    <a routerLink="/main-dashboard/checkout" class="btn animate">Checkout</a>
+                                </div>
+                            </div>
+                            <!--/ End Shopping Item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<!--/ End Header -->
+
+
+<div class="modal-body">
+    <div class="row no-gutters">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <!-- Product Slider -->
+            <div class="product-gallery">
+                <div class="quickview-slider-active">
+                    <div class="single-slider">
+                        <img class="default-img" [src]="data.image" width="400">
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Product slider -->
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="quickview-content">
+                <h2>{{data.title}}</h2>
+
+                <h3>{{data.saleprice}}</h3>
+                <div class="quickview-peragraph">
+                    <p>{{data.details}}</p>
+                </div>
+
+                <div class="add-to-cart">
+                    <a href="#" class="btn">Add to cart</a>
+                    <a href="#" class="btn min"><i class="ti-heart"></i></a>
+                    <a href="#" class="btn min"><i class="fa fa-compress"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
